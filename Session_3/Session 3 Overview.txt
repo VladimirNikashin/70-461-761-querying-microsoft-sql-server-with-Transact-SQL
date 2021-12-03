@@ -1,0 +1,14 @@
+We start off with check constraints in file 83, so check constraints are basically data limiters, 
+it make sure that we cant input data that exceeds the limit of the check constraint.
+
+Primary and Foreign Keys like the ones in file 90 and 91 are sort of a constraint to make sure that the value known as ID stays unique.
+It prevents duplicate ID variables from existing in the table.
+
+I see views like Pseudo tables that represent calculated results and views are created in file 94 for that reason.
+
+In file 104 We are implementing AFTER Trigger, So when Something gets inserted or deleted we can Trigger an output event which is exactly what we did.
+
+In file 105 the Instead Trigger is acvtivated when inserting or deleting something. Instead of deleting It will begin 
+a different transaction and something else will occur in its place.
+
+In file 107 and its extras we just look at basic Control flow with the UPDATE Statement.

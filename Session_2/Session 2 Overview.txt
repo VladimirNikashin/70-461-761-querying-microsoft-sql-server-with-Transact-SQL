@@ -1,0 +1,16 @@
+In this session we start on the development of the main database.
+In file 58 we look at how to find String parts of a row by using String formatting characters and new Keywords such as LIKE 
+with new Key Functions such as >= and = and <>. I have put Comments in the file to further explain in detail what these do in practice.
+The Same thing. Different Keywords are used when your parts that you are targetting are Numerical.
+
+Internally Creating tables via Select
+So basically we are Making new tables via Select statement.
+Inside file 70 Notice the keyword into. That is what we use to make internal tables.
+
+In file 71 I was Joining tables with LEFT JOIN so as my understanding goes we retrieving all the records from the left 
+table with all the records from the right table and outputting the results via a select statement.
+
+In 72 I was Joining them now with a right join and additionally we create a derived table that contains an inner select statement.
+I would say we are retrieving all records from the right table and unmatched records from the Left table.
+
+In file 73 We Run the Delete Query and we see how ROLLBACK reverses our Transaction.

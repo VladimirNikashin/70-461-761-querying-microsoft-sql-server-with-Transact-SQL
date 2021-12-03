@@ -1,0 +1,25 @@
+-- Open command line start from C:\> and type
+
+bcp [70-461].dbo.tblDepartment out mydata.out -N -T
+
+
+-- bcp (bug copy program)
+-- Select a database
+-- Select a table within said database
+-- EXPORT the data into a file called mydata.out
+--  -N stands for Unicode characters
+--  -T stands for Trusted characters
+
+-- Then go into SQL SERVER MANAGER and create another table called  tblDepartment2  for instance:
+
+CREATE TABLE dbo.tblDepartmetn2
+([Department] VARCHAR(19) NULL,
+[DepartmentHead] VARCHAR(19) NULL)
+
+-- To import the data into tblDepartment2 by typing this in the CMD PROMT:
+
+bcp [70-461].dbo.tblDepartment2 in mydata.out -N -T
+
+-- Print the results onto the console by typing this into the SQL SERVER MANAGER
+
+SELECT * FROM dbo.tblDepartment2

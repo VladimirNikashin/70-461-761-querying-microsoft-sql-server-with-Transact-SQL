@@ -1,0 +1,21 @@
+USE [70-461]
+DROP TABLE IF EXISTS [dbo].[#tblXML];
+GO
+CREATE TABLE #tblXML(XmlCol XML)
+GO
+BULK INSERT #tblXML FROM 'C:\XML\SampleDataBulkInsert.txt'
+SELECT * FROM #tblXML
+GO
+
+USE [70-461]
+DROP TABLE IF EXISTS [dbo].[#tblXML];
+GO
+CREATE TABLE #tblXML(IntCol int, XmlCol XML)
+GO
+INSERT INTO #tblXML (XmlCol)
+SELECT * FROM
+OPENROWSET(BULK 'C:\XML\SampleDataOpenRowset.txt', SINGLE_BLOB) AS x
+
+SELECT * FROM #tblXML
+
+-- BLOB Binary Large OBject

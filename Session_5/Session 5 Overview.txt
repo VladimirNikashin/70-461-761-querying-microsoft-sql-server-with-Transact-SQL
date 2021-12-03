@@ -1,0 +1,21 @@
+In 142 We explore what Over is...  OVER() takes a particular range of some rows and it does a calculation based on that number of over those rows.
+
+In 144 We make a total by adding the current NumberAttendance and next row's NumberAttendance it changes based on th number of NumberAttendance.
+I have added comments in 144.
+
+in 145 We look at data reading with Current ROW and UNBOUNDED. 
+Since there are lots of implementations I have made comments that explains every implementation you can view them in fil 145.
+
+In 146 and 147 WE retrieve Rows based on RANGE and ROW see my comments in 146 and 147 for a further in depth explanation.
+
+In 149 we divide a partition with the use of NTILE().
+
+In 150 we see that the first_value takes the first value of the partition or rows in ORDER BY and the last_value takes the last 
+value of the partition or row in ORDER BY
+
+In 151 LAG and LEAD are data reading results that show the numbers that are following up an numbers and numbers that are preceding.
+
+In 158 - 163 We Look at how to make Grids after which we draw points and shapes on them via co-ordinates and strings. 
+Be sure to click on Spatial results when running Geometry based transaction.
+
+In 162 We see how to make point based address tables via co ordinates.

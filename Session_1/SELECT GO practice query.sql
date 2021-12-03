@@ -1,0 +1,17 @@
+SELECT 1+1 AS Result;
+GO
+SELECT 1*1 AS Result;
+GO
+SELECT 2/1 As Result;
+GO
+SELECT 1/1 AS Result;
+GO
+
+SELECT 4+9 As MyAnswer;
+GO
+SELECT 15-26 AS Balance;
+GO
+SELECT 24*4+3 AS MyResponse;
+GO
+SELECT 48/4 Result
+GO

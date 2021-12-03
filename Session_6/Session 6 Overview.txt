@@ -1,0 +1,46 @@
+IN 175 we use correlated subquery to improve qeury execution performance. The performance of the query can be seen 
+by running the include execution plan inside ssms.
+
+In 178 We take a look at dynamically reusable SQL Query with the HElp of th WITH clause.
+
+185 and 185+ are just examples of what a CTE is, Common Table Expressions.
+
+190 see my comments for a better description of what a multiline table does.
+
+In 189 we return the entire table using inline functions.
+
+In 191 We join tables by using Apply because Join wont work with functions.
+
+In 192 We take a look at an example of a SYNONYM, it take statements turns them into a short word for reference.
+
+In 193 We look at a brief example of dynamic sql and the danger that comes with it.
+
+In 195 we practice serialization by the use of Global unique indentifiers.
+
+In 196 and 197 we create a cycling sequence that increments itself as it goes on and 
+upon reaching its max cycle limit it restarts itself counting again from the lowest cycle variable.
+
+___________________________
+XML
+From 201 to 207 we explore the different ways to use SQL For retrieving, writing and manipulating XML data.
+
+FROM 208 to 210 we Explore the different ways to use XML for writing data to SQL tables and variables.
+___________________________
+
+JSON
+Same concepts as XML
+218 Is for Retrieving Json data in SQL format.
+219 Modifying JSON data with SQL.
+220 Converting Json data to sql.
+221 Converting SQL data into JSON data.
+___________________________
+
+Temporal Tables
+___________________________
+227 If a row has been updated 5 years ago and then the row has been updated 
+today this shows how to retrieve the historic changes done to that row.
+
+228 We create a Temporal Table
+
+
+

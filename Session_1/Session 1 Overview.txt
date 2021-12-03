@@ -1,0 +1,3 @@
+This Session is just a basic introductory understanding of what SQL is.
+Nothing really major here. Its kind of just an introduction to SQL in its basic operations with brief explanations on 
+variables, date formats, Conversions and strings.

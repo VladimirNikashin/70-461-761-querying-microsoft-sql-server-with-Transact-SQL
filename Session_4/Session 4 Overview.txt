@@ -1,0 +1,30 @@
+In file 116 at INTERSECT and EXCEPT we just look at an example of what they do.
+INTERSECT does this: Brings back anything that exists in the second table that deos not exist in the first table 
+EXCEPT does this: Brings back anything that exists in both tables
+
+In 117 and 117+ I implemented SQL Switches. So when My variable equals 'Option A' then output 'First Option'
+
+In 120 and 121 we look at brief examples of merge by using MATCHED and NOT MATHCED.
+
+In 122 a more complex query is built from matched that explains DML(Data Manipulation Language) honestly 
+I do not understand the full workings of this specific query or what the full aim of it is. 
+And therefore I am unable to provide a proper description of this particular file.
+
+In 124 We are creating a Procedure. So basically a procedure is this: Instead of writing a 
+SELECT over and over a person can just write one query and execute it with something like 
+
+NameEmployees 4
+EXECUTE NameEmployees 223
+EXEC NameEmployees 323
+
+It saves time.
+
+In 126 we just look at different variations of how one can implement the Function IF EXISTS.
+
+In 128 and 129 we look at how While loops are implemented in SQL with regards to procedures.
+
+In 132 and 134 we Look at Error handling and how its handled, I made comments in this file to show a more detailed overview of whats happening.
+
+In 118 we look at the differences between ISNULL and COALESCE, I have made comments that show a more detailed overview of the scenario.
+
+In 115 We look at the differences between UNION and UNION ALL I have made comments that show a more detailed overview of the scenario.

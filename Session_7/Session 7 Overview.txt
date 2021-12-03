@@ -1,0 +1,28 @@
+234 and 235 we look at the differences between Implicit TRansactions and Explicit TRansactions.
+Its always an Implicit Transaction until Begin Transaction is used.
+
+237 TRANCOUNT marks how many transactions we are in and how many have passed. BEGIN TRANSACTION adds 1 to TRANCOUNT. 
+END subtracts 1 from TRANCOUNT and ROLLBCK TRANSACTION resets TRANCOUNT to 0.
+
+239 We manually lock transactions by adding a wait function so that other 
+transactions will be unable to commit until the timer for that transaction is over.
+
+242 We take a look at what isolation levels are please look at my comments that I
+have provided in the file to see a more detailed overview of the scenario.
+
+249 We look at filtered indices to optimize the execution of the query.
+
+254 We optimize the execution even further by using Search arguments. In file 254 look at my comments for further details
+
+259 We implement a way to add more statistical logging information when executing queries.
+
+261 We look at a A security comparison of a Dynamic query vs a parameterised query.
+
+266 Here we implement cursors.(A Select Statement for every single Employee in a Row that returns data in seperate result sets per employee)
+
+267 Basically same results as a cursor just in a more optimised fashion. (without having a seperate select statement for every employee in the table)
+
+______________________
+HINTS
+Running a transaction with no locks and the ability to read uncomitted data.
+
